@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build" : "tsc",
-    "watch" : "tsc --watch",
+    "build": "tsc",
+    "watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +12,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/lodash": "^4.17.1",
+    "lodash": "^4.17.21",
     "typescript": "^5.4.5"
   }
 }
